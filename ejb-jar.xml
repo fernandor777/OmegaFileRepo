@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns = "http://java.sun.com/xml/ns/javaee" 
+         version = "3.1"
+         xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation = "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd">
+    
+    
+    <enterprise-beans>
+        <session>
+            <ejb-name>OmegaConfigs</ejb-name>
+            
+            <env-entry>
+                <env-entry-name>com.origami.censocat.service.OmegaConfigs/dburl</env-entry-name>
+                <env-entry-type>java.lang.String</env-entry-type>
+                <env-entry-value>jdbc:postgresql://190.57.138.220:5432/censolibertad</env-entry-value>
+            </env-entry>
+            <env-entry>
+                <env-entry-name>com.origami.censocat.service.OmegaConfigs/dbuser</env-entry-name>
+                <env-entry-type>java.lang.String</env-entry-type>
+                <env-entry-value>sisapp</env-entry-value>
+            </env-entry>
+            <env-entry>
+                <env-entry-name>com.origami.censocat.service.OmegaConfigs/dbpass</env-entry-name>
+                <env-entry-type>java.lang.String</env-entry-type>
+                <env-entry-value>sis98</env-entry-value>
+            </env-entry>
+            <env-entry>
+                <env-entry-name>com.origami.censocat.service.OmegaConfigs/tableName</env-entry-name>
+                <env-entry-type>java.lang.String</env-entry-type>
+                <env-entry-value>archivos.doc_file</env-entry-value>
+            </env-entry>
+            
+        </session>
+        
+    </enterprise-beans>
+    
+    
+</ejb-jar>
