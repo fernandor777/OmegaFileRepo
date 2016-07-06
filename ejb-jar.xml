@@ -12,7 +12,7 @@
             <env-entry>
                 <env-entry-name>com.origami.censocat.service.OmegaConfigs/dburl</env-entry-name>
                 <env-entry-type>java.lang.String</env-entry-type>
-                <env-entry-value>jdbc:postgresql://190.57.138.220:5432/censolibertad</env-entry-value>
+                <env-entry-value>jdbc:postgresql://localhost:5432/database</env-entry-value>
             </env-entry>
             <env-entry>
                 <env-entry-name>com.origami.censocat.service.OmegaConfigs/dbuser</env-entry-name>
@@ -22,7 +22,7 @@
             <env-entry>
                 <env-entry-name>com.origami.censocat.service.OmegaConfigs/dbpass</env-entry-name>
                 <env-entry-type>java.lang.String</env-entry-type>
-                <env-entry-value>sis98</env-entry-value>
+                <env-entry-value>password</env-entry-value>
             </env-entry>
             <env-entry>
                 <env-entry-name>com.origami.censocat.service.OmegaConfigs/tableName</env-entry-name>
